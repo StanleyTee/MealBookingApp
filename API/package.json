@@ -1,0 +1,25 @@
+{
+  "name": "mealbookingapi",
+  "version": "1.0.0",
+  "description": "a meal booking api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanleyTee/MealBookingApp.git"
+  },
+  "keywords": [
+    "food",
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "author": "stanley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanleyTee/MealBookingApp/issues"
+  },
+  "homepage": "https://github.com/StanleyTee/MealBookingApp#readme"
+}
