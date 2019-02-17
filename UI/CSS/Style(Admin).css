@@ -1,0 +1,199 @@
+body{
+	margin: 5px;
+	background-image: url(../IMG/sky.png);
+	
+}
+
+/*Login*/
+
+.container{
+	text-align: center;
+	margin-bottom: 99px;
+}
+#header{
+	background-color: #336699;
+	padding: 5px;
+	width: auto;
+	text-align: center;
+	margin: 0px;
+	box-shadow: 2px 2px 3px black;
+	font-size: 28px;
+
+}
+
+.container input{
+	padding: 7px;
+	margin:15px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 3px solid white; 
+	font-size: 17.3px; 
+}
+
+.container input:focus-within{
+	border-bottom: 3px solid black;
+}
+
+.container form{
+	position: relative;
+	left: 28%;
+	top: 30%; 
+	width: 45%;
+}
+
+.container button{
+	margin-bottom: 4px;
+	background-color: white;
+	font-size: 13px;
+	padding: 7px; 
+	cursor: pointer;
+	border:2px solid black;
+}
+
+.container button:hover{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+
+#admin{
+	margin-bottom: 4px;
+	background-color: white;
+	font-size: 13px;
+	padding: 7px; 
+	cursor: pointer;
+	border:2px solid black;
+}
+
+#admin:hover{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+#footer{
+	margin-top: 0px;
+	padding: 23px;
+	background-color: black;
+}
+
+#footer p{
+	font-size: 12px;
+	color: white;
+	text-align: right;
+}
+
+/*Homepage*/
+.admin-nav {
+	display: inline-table;
+	background-color: #0009;
+	padding: 5px 1px;
+	margin: 0px;
+	list-style-type: none;
+	box-shadow: 2px 2px 4px black;
+	width: 30%;
+}
+
+.admin-nav li{
+	display: block;
+	padding: 44px 50px;
+	color:#d7d7d7;
+	border: solid 1px white;
+	border-right: none;
+	border-left: none;
+	font-size: 27px;
+}
+
+.admin-nav img{
+	height: 40px;
+	width: 40px;
+}
+
+#welcome{
+	position: absolute;
+	top: 70%;
+	left: 55%;
+	font-size: 55px;
+}
+
+/*Order Details*/
+
+.admin-tables{
+	position: absolute;
+	left: 45%;
+	top: 45%;
+}
+
+.admin-tables h3{
+	position: relative;
+	left: 20%;
+	top: 30%;
+}
+.admin-tables td,th,tr{
+	border: 2px solid #959090;
+	padding: 20px;
+}
+
+#account-total{
+/*A text that says Total*/
+	position: absolute; 
+	left: 40%;
+	top: 110%;
+}
+#accept-btn{
+	position: absolute;
+	left: 47%;
+	top: 120%;
+	background-color: white;
+	font-size: 13px;
+	padding: 7px; 
+	cursor: pointer;
+	border:2px solid black;
+}
+
+#accept-btn:hover{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+
+#unavailable{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	font-size: 47px;
+}
+
+#move-btn{
+	position: absolute;
+	left: 67%;
+	top: 120%;
+	background-color: white;
+	font-size: 13px;
+	padding: 7px; 
+	cursor: pointer;
+	border:2px solid black;
+}
+
+#move-btn:hover{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+
+#edit-btn{
+	position: absolute;
+	left: 67%;
+	top: 120%;
+	background-color: white;
+	font-size: 13px;
+	padding: 7px; 
+	cursor: pointer;
+	border:2px solid black;
+}
+
+#edit-btn:hover{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}

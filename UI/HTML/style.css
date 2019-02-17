@@ -1,0 +1,30 @@
+.slide{
+    /*Images here are 470px x 470px*/
+    width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+   scroll-snap-points-x: repeat(300px);
+}
+
+/*.display-left{
+    position: absolute;
+    padding: 20px;
+    top: 60%;
+    left: 40%;
+    bottom: 50%;
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.display-right{
+    position: absolute;
+    padding: 20px;
+    top: 60%;
+    left: 70%;
+    bottom: 50%;
+    width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}*/
