@@ -1,4 +1,5 @@
 import MealService from '../services/meal.service';
+import bodyParser from 
 
 const MealController = {
     fetchAllMeals(req,res) {
@@ -31,5 +32,7 @@ const MealController = {
             data: createdMeal
         }).status(201);
     }
-}
+};
+
+export default MealController;
 
